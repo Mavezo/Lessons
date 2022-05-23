@@ -8,6 +8,36 @@
 		font: Arial; 
 	}
 }
-
-
-
+.block2{
+	background-color: #FF00FF;
+	width:80%;
+	height:15%;
+i{
+	font-color: green;
+	font-size: 20px;
+		
+}
+strike{
+	font-color: red;
+	font-size: 20px;
+	
+}
+u{
+	font-color: #8b00ff;	
+	font-size: 20px;
+		
+}
+}
+.block3{
+	background-color: #C0D727;
+	width: 100%;
+	height: 30%;
+	h1{
+		font-color: #0000ff;
+		font-size: 30px;
+		text-decoration: underline;
+	}
+	
+}
+	
+	
