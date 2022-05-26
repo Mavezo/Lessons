@@ -1,0 +1,39 @@
+
+
+p#pogrubienie_Tselik{
+	font-size: 31;
+	color: rgb(146, 90, 233);
+}
+p#pochylona_Tselik{
+	font-size: 36pt;
+	color: rgb(246, 190, 133);
+}
+
+p#index_gorny_Tselik{
+	font-size: 1,1cm;
+	color: rgb(166, 140, 53);
+}
+
+p#index_dolny_Tselik{
+	font-size: 1,7cm;
+	color: rgba(66, 240, 226, 2);
+}
+p#mono_Tselik{
+	font-size: 41px;
+	color: rgb(38, 220, 133);
+}
+
+p#powiekszenie_Tselik{
+	color: rgb(96, 60, 183);
+}
+
+
+p#pomniejszenie_Tselik{
+	color: rgba(196, 160, 83, 1);
+	
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
