@@ -1,0 +1,82 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<h1> HTML </h1>
+<textarea rows="50" cols="90">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="zadanie67_Tselik.css" rel="stylesheet" type="text/CSS">
+    </head> 
+    <body>
+        <p class="first">
+            R. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, 
+            sit laudantium, consectetur perferendis sequi odio, ex neque quam inventore
+            incidunt illum totam sapiente esse tempora aperiam quidem aliquid. Obcaecati, 
+            tempora.   
+        </p><br><br>
+        <p class="second">
+            T. Eligendi, maiores. Necessitatibus voluptatem ut laudantium rem. 
+            Ducimus.   
+        </p><br><br>
+        <h1>
+            CSS są piękne<br>
+        </h1><br><br>
+        <p class="third">
+            Kolejnym pseudoelementem jest :first-line, który w przeciwieństwie do poprzednika<br>
+            obejmuje formatowaniem całą pierwszą linię, a nie tylko pierwszą literę
+        </p>
+    
+    
+    </body>
+    </html>
+</textarea><br><br>
+
+<h1>CSS</h1>
+<textarea rows="50" cols="90">
+    p.first::first-letter{
+        font-size: 113pt;
+        color: yellow;
+        }
+        p.first{
+        font-size: 20pt;
+        color: blue;
+        }
+        
+        p.second::first-letter{
+        font-size: 113pt;
+        color: yellow;
+        }
+        p.second{
+        font-size: 19pt;
+        color: blue;    
+        }
+        h1::first-letter{
+        font-size: 140pt;
+        color: silver;
+        }
+        h1{
+        font-size: 35pt;
+        color:darkorchid;
+        }
+        p.third::first-letter{
+        font-size: 100pt;
+        }
+        p.third::first-line{
+            color:red;
+            font-size: 18pt;
+        }
+        p.third{
+        font-size: 30pt;
+        color:darkmagenta;
+        }
+</textarea>
+
+</body>
+</html>

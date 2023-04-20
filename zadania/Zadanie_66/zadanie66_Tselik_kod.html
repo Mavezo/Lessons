@@ -1,0 +1,81 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<h1> HTML </h1>
+<textarea rows="50" cols="90">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="zadanie66_Tselik.css" rel="stylesheet" type="text/CSS">
+</head>
+<body>
+    <p class="first">Pseudoelementem :first-line, który obejmuje formatowaniem całą<br>
+        pierwszą linię.</p><br><br>
+    <p class="second">
+        pseudoelementy: :after oraz :before.
+Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne
+pseudoelementy: :after oraz :before. Oba elementy służą do umieszczania tekstu przed i za
+formatowanym elementem strony.
+    </p> <br><br>
+
+    <p class ="third">Pseudoelement :first-letter pozwala na formatowanie pierwszej litery w bloku
+        tekstu.
+        Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i
+        nadanie jej koloru czerwonego.</p>
+
+
+
+</body>
+</html>
+</textarea><br><br>
+
+<h1>CSS</h1>
+<textarea rows="50" cols="90">
+    p.first
+    {
+    color:navy;
+    font-size:12pt;
+    }
+   p.first:first-line
+    {
+    color:red;
+    font-size:20pt;
+    font-weight:bold;
+    }
+   
+    p.second:before
+    {
+    content:"TO SĄ ĆWICZENIA";
+    font-size:15pt;
+    font-style:italic;
+    font-weight:bold;
+    }
+   p.second:after
+    {
+    content:"AUTOR Król Lew";
+    font-size:15pt;
+    font-style:italic;
+    font-weight:bold;
+    }
+   
+   p.third
+    {
+    color:navy;
+    font-size:30pt;
+    }
+   p.third:first-letter
+    {
+    color:red;
+    font-size:100pt;
+    }
+   
+</textarea>
+
+</body>
+</html>
